@@ -10,7 +10,7 @@ But we have created a solution to tackle this problem. CASSAVEA is a web app cre
 ## How I built it
 First, we tackled the core of the project which was the **machine learning algorithm**. We knew this would take a long time to train so we made sure to complete it first. This algorithm was created with **TensorFlow, Pandas and MatPlotLib**, using a dataset collected from Kaggle. Before going ahead with the model we also decided to use data analysis with **R** to make sure it was a fit for our project. We then decided to each work on our specialities, creating the prototype with **Figma initially**, then turning this prototype to reality with **HTML, CSS and advanced JavaScript**. For the back-end, we decided to use **Flask**, as it was easy to send and receive data from the model. The web app was deployed using **Docker** and **AWS**, as we received credits to use.
 
-## Challenges I ran into
+## Challenges we ran into
 The main challenge we ran into was the machine learning algorithm, as we knew it would take a **long time to train** in order to be effective. How we managed to solve this problem was by using **data analysis** with R to review and graph the data, and by testing various sizes of datasets we were able to predict the optimal number of epochs so that the model would not underfit nor overfit.
 
 Another challenge we came across was connecting all these stages together, especially sending and receiving data from the model. We solved this problem by saving the model as *h5*  file and then integrating it with Flask so that we can limit the model training time, so the user has a faster time to receive the data.
